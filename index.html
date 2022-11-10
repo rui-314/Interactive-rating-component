@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive rating component</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="before">
+            <div class="star">
+                <img src="images/icon-star.svg" alt="star">
+            </div><!-- /.star -->
+    
+            <div class="question">
+                <h1>How did we do?</h1>
+            </div><!-- /.question -->
+    
+            <div class="description">
+                Please let us know how we did with your support
+                request. All feedback is appreciated to help us
+                improve our offering!
+            </div><!-- /.description -->
+    
+            <div class="feedback">
+                <input type="button" value="1" class="first-button button is_not_click" name="first">
+                <input type="button" value="2" class="second-button button is_not_click" name="second">
+                <input type="button" value="3" class="third-button button is_not_click" name="third">
+                <input type="button" value="4" class="forth-button button is_not_click" name="forth">
+                <input type="button" value="5" class="fifth-button button is_not_click" name="fifth">
+                <input type="submit" value="SUBMIT" class="submit-button">
+            </div><!-- /.feedback -->
+        </div><!-- /.before -->
+
+        <div class="after is_not_view">
+            <div class="image">
+                <img src="images/illustration-thank-you.svg" alt="" class="thank-you">
+            </div><!-- /.image -->
+
+            <label for="" class="selected">
+                <p class="selected-number">You selected  out of 5</p>
+            </label><!-- /.selected -->
+
+            <div class="thanks">
+                <h1>Thank you!</h1>
+            </div><!-- /.thanks -->
+
+            <div class="description">
+                We appreciate you taking the time to give a rating.
+                If you ever need more support, don't hesitate to
+                get in touch!
+            </div><!-- /.description -->
+
+        </div><!-- /.after -->
+        
+    </div><!-- /.container -->
+
+</body>
+<script src="js/script.js"></script>
+</html>
